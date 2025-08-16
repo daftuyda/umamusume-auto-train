@@ -1,23 +1,14 @@
 {
-  "priority_stat": [
-    "spd",
-    "sta",
-    "wit",
-    "pwr",
-    "guts"
-  ],
-  "minimum_mood": "GREAT",
-  "maximum_failure": 15,
+  "priority_stat": ["spd", "pwr", "guts", "wit", "sta"],
+  "minimum_mood": "GOOD",
+  "maximum_failure": 10,
   "prioritize_g1_race": false,
-  "skill_point_cap": 1000,
-  "enable_skill_point_check": true,
-  "min_support": 0,
-  "do_race_when_bad_training": false,
+  "use_optimal_event_choices": true,
   "stat_caps": {
-    "spd": 1100,
-    "sta": 1100,
-    "pwr": 600,
-    "guts": 600,
-    "wit": 600
+  "spd": 1100,
+  "sta": 600,
+  "pwr": 1100,
+  "guts": 600,
+  "wit": 600
   }
 }
